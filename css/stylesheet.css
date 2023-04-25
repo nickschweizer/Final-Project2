@@ -1,0 +1,148 @@
+body {
+    font-size: 1.25em;
+    margin: 25px;
+    color: black;
+}
+  
+h1, h3 {
+    color: black;
+    font-variant: small-caps;
+}
+  
+/* center content on screen */
+.wrap {
+    margin: 0 auto;
+    width: 90%;
+}
+  
+main {
+    width: 70%;
+    float: left;
+    padding: 10px 25px 10px 10px;
+}
+  
+aside.right {
+    width: 25%;
+    float: left;
+    padding: 10px;
+}
+  
+article.sidebar {
+    border-left: 1px solid gold;
+    border-bottom: 1px solid gold;
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+  
+hr {
+    border-top: 1px solid gold;
+}
+  
+figure {
+    margin-top: 10px;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding: 0;
+    text-align: center;
+}
+  
+figcaption {
+    font-style: italic;
+    text-align: center;
+}
+  
+img.responsive-main {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
+  
+img.responsive-sidebar {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+}
+  
+table {
+    border-collapse: collapse;
+    color: black;
+}
+  
+th.day {
+    text-align: center;
+    background-color: gold;
+    padding: 5px;
+    border: none;
+}
+  
+th.course {
+    text-align: right;
+    background-color: gold;
+    padding: 5px;
+    border: none;
+}
+  
+td {
+    padding: 5px 5px 5px 5px;
+    vertical-align: middle;
+    text-align: center;
+    border: 1px solid gold;
+}
+  
+caption {
+    color: black;
+    font-size: 1.0em;
+    font-style: italic;
+    font-weight: bold;
+    caption-side: bottom;
+}
+  
+li {
+    padding: 5px;
+}
+  
+/* Formatting for the menu bar */
+#menubar {
+    background-color: black;
+    width: 100%;
+    overflow: hidden;
+}
+  
+/* Converting an unordered list into top navigation buttons */
+ul#navlist {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0px;
+}
+  
+#navlist li {
+    display: block;
+    float: left;
+    font-weight: bold;
+    text-align: center;
+    font-variant: small-caps;
+    padding: 10px;
+}
+  
+#navlist a {
+    padding: 10px 10px;
+}
+  
+#navlist a:link, #navlist a:visited {
+    color: #fff;
+    background-color: black;
+    text-decoration: none;
+}
+  
+#navlist a:hover {
+    color: black;
+    background-color: gold;
+    text-decoration: none;
+}
+  
+/* Formatting to highlight the navigation button corresponding to the page you are on... breadcrumb. */
+body#home a#homenav, body#schedule a#schedulenav {
+    color: black;
+    background-color: gold;
+    text-decoration: none;
