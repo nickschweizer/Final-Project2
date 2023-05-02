@@ -4,7 +4,7 @@ body {
     color: black;
 }
   
-h1, h3 {
+h1 {
     color: black;
     font-variant: small-caps;
 }
@@ -28,8 +28,8 @@ aside.right {
 }
   
 article.sidebar {
-    border-left: 1px solid gold;
-    border-bottom: 1px solid gold;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
     padding-left: 15px;
     padding-bottom: 10px;
 }
@@ -87,7 +87,7 @@ td {
     padding: 5px 5px 5px 5px;
     vertical-align: middle;
     text-align: center;
-    border: 1px solid gold;
+    border: 1px solid black;
 }
   
 caption {
@@ -137,12 +137,12 @@ ul#navlist {
   
 #navlist a:hover {
     color: black;
-    background-color: gold;
+    background-color: rgb(255, 0, 0);
     text-decoration: none;
 }
   
 /* Formatting to highlight the navigation button corresponding to the page you are on... breadcrumb. */
 body#home a#homenav, body#schedule a#schedulenav {
     color: black;
-    background-color: gold;
+    background-color: rgb(255, 0, 0);
     text-decoration: none;
