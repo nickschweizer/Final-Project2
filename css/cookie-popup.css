@@ -40,3 +40,10 @@
   background-color: lightpink;
   transition: 0.4s;
 }
+
+h1 {
+  color: black;
+  font-variant: small-caps;
+  text-align: center;
+  text-decoration: underline;
+}
